@@ -34,7 +34,7 @@ COPY docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
 
 VOLUME /opt/fitnesse/FitNesseRoot
-EXPOSE 88
+EXPOSE 8155
 
 WORKDIR /opt/fitnesse
 
